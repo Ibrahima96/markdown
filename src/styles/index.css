@@ -18,21 +18,12 @@ body {
 }
 @media (width<=690px) {
   .elements{
-    flex-direction: column;
-    margin: auto;
+    flex-wrap: wrap;
   }
-  .element{
-    width: 100%;
-    margin: 0 auto;
-    padding: 5px auto;
-   
-  }
-  textarea {
-    max-width: 500px;
-  }
+ 
 }
 .element {
-  width: 50%;
+  width: 100%;
 }
 
 textarea {
