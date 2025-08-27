@@ -37,6 +37,10 @@ textarea {
   resize: none;
   min-height: 599px;
 }
+textarea:focus {
+  border: 2px solid rgba(26, 26, 200, 0.333);
+  outline: none;
+}
 
 code {
   padding: 2px 4px;
