@@ -16,7 +16,7 @@ body {
   padding: 30px;
 
 }
-@media (width<=691px) {
+@media (width<=690px) {
   .elements{
     flex-direction: column;
     margin: auto;
@@ -26,6 +26,9 @@ body {
     margin: 0 auto;
     padding: 5px auto;
    
+  }
+  textarea {
+    max-width: 500px;
   }
 }
 .element {
