@@ -27,7 +27,6 @@ function App() {
           </div>
           <div className="element">
             {/* previsualisation */}
-            {/* <textarea  value={showprevMardown}></textarea> */}
             <Markdown>{showprevMardown}</Markdown>
           </div>
         </div>
