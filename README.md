@@ -1,12 +1,22 @@
-# React + Vite
+# Documentation du Projet Markdown Visualizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Présentation
 
-Currently, two official plugins are available:
+Ce projet est une application web permettant de visualiser du contenu Markdown en temps réel. L'utilisateur peut saisir ou coller du texte Markdown dans une zone d'édition, et le rendu HTML correspondant s'affiche instantanément dans une zone de prévisualisation. L'application est accessible à l'adresse suivante : [https://markdown-seven-ebon.vercel.app/](https://markdown-seven-ebon.vercel.app/).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Fonctionnalités
 
-## Expanding the ESLint configuration
+- **Éditeur Markdown** : Saisie et édition de texte au format Markdown.
+- **Prévisualisation en temps réel** : Affichage instantané du rendu HTML du Markdown saisi.
+- **Interface intuitive** : Séparation claire entre la zone d'édition et la zone de prévisualisation.
+- **Support des principales syntaxes Markdown** : Titres, listes, liens, images, code, etc.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Démonstration
+
+1. Rendez-vous sur [https://markdown-seven-ebon.vercel.app/](https://markdown-seven-ebon.vercel.app/).
+2. Saisissez ou collez du texte Markdown dans la zone de gauche.
+3. Observez le rendu HTML s'afficher automatiquement dans la zone de droite.
+
+### Exemple
+
+**Entrée Markdown :**
