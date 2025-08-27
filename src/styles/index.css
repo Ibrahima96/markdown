@@ -14,8 +14,20 @@ body {
   display: flex;
   gap: 30px;
   padding: 30px;
-}
 
+}
+@media (width<=691px) {
+  .elements{
+    flex-direction: column;
+    margin: auto;
+  }
+  .element{
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px auto;
+   
+  }
+}
 .element {
   width: 50%;
 }
